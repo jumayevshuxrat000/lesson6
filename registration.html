@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Аудитерия — Регистрация</title>
+  <link rel="stylesheet" href="./css/registration.css" />
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body class="registration-page">
+    <header class="navbar">
+    <div class="container navbar__content">
+      <div class="logo">АУДИТЕРИЯ</div>
+      <nav class="nav-links">
+        <a href="#">Как купить</a>
+        <a href="#">F.A.Q</a>
+        <a href="#">Контакты</a>
+      </nav>
+      <div class="actions">
+        <button class="search-btn"><img src="./assets/Icon.png" alt=""></button>
+        <button class="register-btn" onclick="window.location.href='registration.html'">Регистрация</button>
+        <button class="login-btn">Войти</button>
+      </div>
+      <div class="menu__div">
+        <img src="./assets/menu-svgrepo-com.svg" alt="" style="width: 40px; filter: invert(1);">
+      </div>
+    </div>
+  </header>
+  <div class="reg-page">
+    <div class="reg-left">
+      <div class="logo">АУДИТЕРИЯ</div>
+      <div class="form-wrapper">
+        <div class="tabs">
+          <span class="tab_active">Регистрация</span>
+          <span class="tab__sign">Войти</span>
+        </div>
+        <form class="reg-form">
+          <input type="text" placeholder="Имя"/>
+          <input type="email" placeholder="E-mail"/>
+          <input type="password" placeholder="Пароль"/>
+          <input type="password" placeholder="Пароль еще раз"/>
+          <button type="submit" class="reg-btn">Зарегистрироваться</button>
+        </form>
+      </div>
+    </div>
+    <div class="reg-right">
+      <div class="text-content1">
+        <h1>Книги, которые<br>вам хочется слушать</h1>
+        <p>Лучшая подборка аудиокниг по психологии<br>саморазвитию за все годы издательства...</p>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
